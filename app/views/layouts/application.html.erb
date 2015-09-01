@@ -8,7 +8,13 @@
 </head>
 <body>
 
-<%= yield %>
+  <%= link_to 'Home', root_path %>
+  <%= link_to 'About', about_path %>
+  <%= link_to 'Contact Me', contact_path %>
+  <%= link_to 'Fun', fun_path %>
+  <%= link_to 'Testpage', testpage_path %>
+
+  <%= yield %>
 
 </body>
 </html>
