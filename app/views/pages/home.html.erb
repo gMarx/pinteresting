@@ -4,9 +4,9 @@
   <% if user_signed_in? %>
     <p class="text-center">You're Here</p>
   <% else %>
-    <p class="center">You know you wanna</br>
-      <%= link_to 'Sign In', new_user_session_path, class: "btn btn-default btn-lg" %>
-      <%= link_to 'Sign Up', new_user_registration_path, class: "btn btn-primary btn-lg" %>
+    <p class="center">How about</br>
+      <%= link_to 'Signing In', new_user_session_path, class: "btn btn-default btn-lg" %>
+      <%= link_to 'Signing Up', new_user_registration_path, class: "btn btn-primary btn-lg" %>
     </p>
   <% end %>
   <p class="center">Find me in app/views/pages/home.html.erb</p>
