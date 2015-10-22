@@ -7,8 +7,8 @@ Rails.application.routes.draw do
   # get 'pages/testpage'
 
   # make the home page the pages/home
-  root 'pages#home'
-
+  # root 'pages#home'
+  root 'pins#index'
   # add route for about
   get 'about' => 'pages#about'
   get 'contact' => 'pages#contact'
